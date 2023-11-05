@@ -1,0 +1,358 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    height: 60px;
+    /* border: black solid; */
+    margin-right: 0px;
+    /* position: relative; */
+    /* right: 130px; */
+    display: flex;
+    /* text-decoration: none; */
+    background-color: rgb(245, 242, 242);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    color: black;
+    /* justify-content: space-around; */
+    
+}
+#logo{
+    height: 50px;
+    width: 200px;
+    /* border: solid red; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 5px;
+
+  
+}
+#a1{
+    height: 50px;
+    width: 130px;
+    /* border: red dotted; */
+    margin-left: 35px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.a{
+    height: 50px;
+    width: 150px;
+    margin-top: 5px;
+    text-align: center;
+     padding-top: 10px;
+     /* padding-right: 18px; */
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 35px;
+    z-index: 30;
+    
+}
+.a:hover{
+    border-bottom: black solid;
+
+}
+#a1:hover{
+    border-bottom: black solid;
+}
+#sea{
+    /* border: solid red; */
+    
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 100px;
+    margin-top: 5px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    transition:0.5s;
+    /* border: red solid; */
+
+    /* margin-right: 130px; */
+}
+#india{
+    height: 50px;
+    width: 100px;
+    /* border: red dotted; */
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: px;
+    margin-top: 8px;
+}
+#india:hover{
+    border-bottom: solid black;
+
+}
+#img{
+    height: 30px;
+}
+
+.sea:hover{
+    /* color: blue; */
+    /* text-transform: uppercase; */
+    border-bottom: black solid;
+    height: 10px;
+}
+a{
+    text-decoration: none;
+}
+/* article ////////////////////////// */
+article{
+    height: 2500px;
+    position: relative;
+    background-color: rgb(184, 225, 236);
+}
+#firstp{
+    font-size: 60px;
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    
+}
+#tp2nd{
+    background-color: aliceblue;
+    height: 1900px;
+    width: 1200px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+
+}
+#pra{
+    font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    line-height: 1.5;
+    font-weight: bold;
+    
+
+}
+#Question{
+    font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 800px;
+    line-height: 1.5;
+    font-weight: bold;
+    
+}
+#ans{
+    font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 870px;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+#table
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+     position: absolute;
+     left: 100px;
+     top: 1500px;
+     line-height: 1.5;
+     font-weight: bold;
+
+}
+#th1{
+    border: black solid;
+}
+/* footer footer footer footer footer  */
+#foo{
+    height: 500px;
+    background-color: black;
+    position: relative;
+    top: 0px;
+}
+#fop{
+    color: aliceblue;
+    font-size:  30px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+#fosub{
+    height: 50px;
+    width: 50px;
+    border: red solid;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    border-radius: 100%;
+
+    
+}
+#wq{
+    color: aliceblue;
+    font-size: 40px;
+    position: absolute;
+    top: px;
+    left: 50px;
+}
+#fosub:hover{
+    /* border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px; */
+    border-radius: 30px;
+    border: white solid;
+    transition: 1s;
+    border-left: none;
+    background-image: linear-gradient(red,black);
+    width: 300px;
+    letter-spacing: 6px;
+
+}
+#foolast{
+    height: 150px;
+    width: 1190px;
+    border-top: red solid;
+    border-bottom: wheat solid;
+    position: absolute;
+    top: 190px;
+    left: 150px;
+    justify-content: space-between;
+}
+#accen{
+    position: absolute;
+    top: 40px;
+}
+#about{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 120px;
+    top: 60px;
+
+}
+#contact{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 280px;
+    top: 60px;
+}
+#crreers{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 60px;
+
+}
+#location{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 650px;
+    top: 60px;
+
+}
+#fooicon{
+    height: 100px;
+    width: 300px;
+    /* background-color:wheat; */
+    position: absolute;
+    left: 1000px;
+    top: 215px;
+}
+#icon1{
+    position: absolute;
+    top: 26px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+    /* background-color: aliceblue; */
+}
+#icon2{
+    position: absolute;
+    top: 26px;
+    left: 70px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+
+}
+#icon3{
+    position: absolute;
+    top: 26px;
+    left: 155px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+}
+#icon4{
+    position: absolute;
+    top: 26px;
+    left: 240px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+    
+}
+#privacy{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    border-bottom: solid white;
+}
+#teram{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    border-bottom: solid white;
+
+}
+#cookie{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    border-bottom: solid white;
+}
+#access{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 760px;
+    border-bottom: solid white;
+
+}
+#site{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 960px;
+    border-bottom: solid white;
+
+}
+#accen2023{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 1060px;
+    border-bottom: solid white;
+}
+#submi{
+    border: red dotted;
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    z-index: 1;
+}

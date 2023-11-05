@@ -1,0 +1,512 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+
+    background-color: black;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    /* border: black solid; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+.logo{
+    font-size: 1.5rem;
+    width: 150px;
+    color: white;
+    /* border: red solid; */
+}
+.nav-list{
+    list-style: none;
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+}
+#sa{
+    color: aliceblue;
+    position: absolute;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#sa2{
+    color: aliceblue;
+    position: absolute;
+    left: 150px;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#sa3{
+    color: aliceblue;
+    position: absolute;
+    left: 300px;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#sa4{
+    color: aliceblue;
+    position: absolute;
+    left: 460px;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#sa5{
+    color: aliceblue;
+    position: absolute;
+    left: 1150px;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#sa6{
+    color: aliceblue;
+    position: absolute;
+    left: 700px;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#sa7{
+    color: aliceblue;
+    position: absolute;
+    left: 1060px;
+    top: 10px;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#search{
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+}
+#iconsea{
+    font-size: 30px;
+}
+
+#dropdown{
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+#dropdown a{
+    color: red;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    /* border: red solid; */
+    /* width: 900px; */
+    /* margin-right: 100px; */
+    transition: background-color 0.3s ease-in-out;
+}
+.a:hover{
+    background-color: wheat;
+    /* height: 100px; */
+}
+#sa:hover #dropdown{
+    background-color: rgb(147, 185, 185);
+    position: absolute;
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    z-index: 1;
+}
+#sa2:hover #dropdown{
+    background-color: #555;
+    margin-top: 0px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    z-index: 3;
+}
+#sa3:hover #dropdown{
+    background-color: #555;
+    margin-top: 0px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    z-index: 3;
+}
+#sa4:hover #dropdown{
+    background-color: #555;
+    margin-top: 0px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    grid-template-rows: 100px 100px 100px 100px;
+    z-index: 7;
+}
+/* #sa5:hover #dropdown{
+    background-color: #555;
+    margin-top: 0px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    z-index: 1;
+} */
+
+.a1{
+    font-size: 25px;
+    color: aliceblue;
+}
+.a2{
+    font-size: 25px;
+    color: aliceblue;
+}
+.a3{
+    font-size: 25px;
+    color: aliceblue;
+    bottom: 70px;
+}
+.a4{
+    font-size: 25px;
+    color: aliceblue;
+}
+.a5{
+    font-size: 25px;
+    color: aliceblue;
+}
+.a{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+#vi{
+    height: 572px;
+    /* border: solid red; */
+    /* background-color: rgb(122, 141, 158); */
+    /* box-shadow: 0px 0px 30px rgb(80, 74, 84); */
+    background-size: cover;
+    /* border: red solid; */
+    /* transform: skew(0deg,45deg); */
+  }
+  video{
+    /* height: 650px; */
+    /* width: 1400px; */
+    /* margin-left: 40px; */
+    /* border: red 5px solid; */
+    /* box-shadow: 0px 0px 30px rgba(10, 6, 6, 0.281); */
+    width: 100%;
+    /* height: 360px; */
+     /* min-height: 25dvh; */
+     color: #555;
+    
+}
+#intro{
+    height: 700px;
+    width: 1500px;
+    /* border: black dotted; */
+    display: flex;
+    position: relative;
+    border-bottom: #555 solid 2px;
+}
+#cos{
+    height: 650px;
+    width: 800px;
+    /* border: red solid; */
+    position: relative;
+}
+#img{
+    height: 300px;
+    width: 600px;
+    /* border: red solid; */
+    position: absolute;
+    left: 800px;
+    top: 150px;
+}
+#intropra{
+    font-size: 60px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 30px;
+}
+#irode{
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 30px;
+    
+
+}
+#img1{
+    height: 300px;
+    width: 600px;
+}
+#imgdes{
+    height: 200px;
+    width: 599px;
+    /* border: red double; */
+    position: absolute;
+    top: 450px;
+    left: 801px;
+}
+#song{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}
+#songdes{
+    font-size: 20px;
+    line-height: 30px;
+}
+#intro2{
+    height: 900px;
+    width: 1515px;
+    /* border: red dotted; */
+    background-image: url(Accenture-CX-Parallax-1600x900.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* top: 2000px; */
+    
+}
+#int2div1{
+    height: 600px;
+    width: 1200px;
+    /* border: red solid; */
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    border-radius: 30px;
+
+
+}
+#int2pra{
+    margin-left: 20px;
+    font-size: 60px;
+    font-style: oblique;
+    font-weight: bold;
+}
+#intro2pra2{
+    font-size: 25px;
+    margin-left: 20px;
+}
+#intro3{
+    height: 700px;
+    /* border: red solid; */
+    background-image: url(thankyou.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#intro3div{
+    height: 350px;
+    width: 1100px;
+    margin-top: 20px;
+    /* border: red solid; */
+    ;background-image: linear-gradient(white, white);
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px black;
+}
+#intro3pra{
+    margin-left: 30px;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(96, 61, 61);
+}
+#intro3pra2{
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgba(205, 90, 18, 0.9);
+}
+#foo{
+    height: 500px;
+    background-color: black;
+    position: relative;
+    top: 30px;
+}
+#fop{
+    color: aliceblue;
+    font-size:  30px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+#fosub{
+    height: 50px;
+    width: 50px;
+    /* border: red solid; */
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    border-radius: 100%;
+
+    
+}
+#wq{
+    color: aliceblue;
+    font-size: 40px;
+    position: absolute;
+    top: px;
+    left: 50px;
+}
+#fosub:hover{
+    /* border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px; */
+    border-radius: 30px;
+    border: white solid;
+    transition: 1s;
+    border-left: none;
+    background-image: linear-gradient(red,black);
+    width: 300px;
+    letter-spacing: 6px;
+
+}
+#foolast{
+    height: 150px;
+    width: 1190px;
+    border-top: red solid;
+    border-bottom: wheat solid;
+    position: absolute;
+    top: 190px;
+    left: 150px;
+    justify-content: space-between;
+}
+#accen{
+    position: absolute;
+    top: 40px;
+}
+#about{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 120px;
+    top: 60px;
+
+}
+#contact{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 280px;
+    top: 60px;
+}
+#crreers{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 60px;
+
+}
+#location{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 650px;
+    top: 60px;
+
+}
+#fooicon{
+    height: 100px;
+    width: 300px;
+    /* background-color:wheat; */
+    position: absolute;
+    left: 1000px;
+    top: 215px;
+}
+#icon1{
+    position: absolute;
+    top: 26px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+    /* background-color: aliceblue; */
+}
+#icon2{
+    position: absolute;
+    top: 26px;
+    left: 70px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+
+}
+#icon3{
+    position: absolute;
+    top: 26px;
+    left: 155px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+}
+#icon4{
+    position: absolute;
+    top: 26px;
+    left: 240px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+    
+}
+#privacy{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    border-bottom: solid white;
+}
+#teram{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    border-bottom: solid white;
+
+}
+#cookie{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    border-bottom: solid white;
+}
+#access{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 760px;
+    border-bottom: solid white;
+
+}
+#site{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 960px;
+    border-bottom: solid white;
+
+}
+#accen2023{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 1060px;
+    border-bottom: solid white;
+
+
+}
+
+

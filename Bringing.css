@@ -1,0 +1,486 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+
+    background-color: black;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    /* border: black solid; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+.logo{
+    font-size: 1.5rem;
+    width: 150px;
+    color: white;
+    /* border: red solid; */
+}
+.nav-list{
+    list-style: none;
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+}
+#sa{
+    color: aliceblue;
+    position: absolute;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#sa2{
+    color: aliceblue;
+    position: absolute;
+    left: 150px;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#sa3{
+    color: aliceblue;
+    position: absolute;
+    left: 300px;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#sa4{
+    color: aliceblue;
+    position: absolute;
+    left: 450px;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+#sa5{
+    color: aliceblue;
+    position: absolute;
+    left: 1150px;
+    /* border: red solid; */
+    bottom: 0rcap;
+    text-decoration: none;
+}
+
+#dropdown{
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+#dropdown a{
+    color: red;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+}
+.a:hover{
+    background-color: wheat;
+    /* height: 100px; */
+}
+#sa:hover #dropdown{
+    background-color: rgb(147, 185, 185);
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    z-index: 1;
+}
+#sa2:hover #dropdown{
+    background-color: #555;
+    margin-top: 0px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    z-index: 1;
+}
+#sa3:hover #dropdown{
+    background-color: #555;
+    margin-top: 0px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    z-index: 1;
+}
+#sa4:hover #dropdown{
+    background-color: #555;
+    margin-top: 0px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    z-index: 1;
+}
+/* #sa5:hover #dropdown{
+    background-color: #555;
+    margin-top: 0px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    z-index: 1;
+} */
+
+.a1{
+    font-size: 25px;
+    color: aliceblue;
+}
+.a2{
+    font-size: 25px;
+    color: aliceblue;
+}
+.a3{
+    font-size: 25px;
+    color: aliceblue;
+}
+.a4{
+    font-size: 25px;
+    color: aliceblue;
+}
+.a5{
+    font-size: 25px;
+    color: aliceblue;
+}
+.a{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+/* ////////////////////////////////article */
+#body{
+    height:4500px;
+    background-color: black;
+    position: relative;
+}
+#home{
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    color: aliceblue;
+}
+#pra{
+    font-size: 20px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    color: aliceblue;
+    /* z-index: 1; */
+}
+h1{
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    font-size: 60px;
+    color: aliceblue;
+    /* z-index: 1; */
+}
+#h3{
+    position: absolute;
+    top: 360px;
+    left: 30px;
+    font-size: 30px;
+    color: aliceblue;
+    /* z-index: 1; */
+
+}
+#pra2{
+    position: absolute;
+    top: 430px;
+    left: 30px;
+    font-size: 20px;
+    color: aliceblue;
+}
+#div2{
+    /* border: red solid; */
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    overflow: hidden;
+}
+#div2 img {
+    width: 100%;
+    height: 100%;
+    transition: transform 2s ease-in-out;
+}
+#div2:hover img {
+    width: auto;
+    height: auto;
+    transform: scale(1.2); /* Adjust the scale factor for the zoom effect */
+  }
+
+#div3{
+    /* border: blue solid; */
+    height: 1000px;
+    width: 1510px;
+    position: absolute;
+    top: 940px;
+}
+#div31{
+    /* border: brown solid; */
+    height: 800px;
+    width: 1200px;
+    position: absolute;
+    left: 130px;
+    top: 100px;
+}
+#h2{
+    color: aliceblue;
+    font-size: 60px;
+}
+#h4{
+    color: aliceblue;
+    font-size: 45px;
+}
+#pra3{
+    color: aliceblue;
+    font-size: 25px;
+    line-height: 30px;
+}
+#utube{
+    /* border: red solid; */
+    height: 600px;
+    width: 1200px;
+    position: absolute;
+    top: 1800px;  
+}
+#div4{
+    /* border: blue solid; */
+    height: 2000px;
+    width: 1500px;
+    position: absolute;
+    top: 2500px;
+
+}
+#h42{
+    color: aliceblue;
+    font-size: 50px;
+}
+#h31{
+    color: aliceblue;
+    font-size: 40px;
+}
+#pra4{
+    color: aliceblue;
+    font-size: 30px;
+}
+#ul{
+    color: aliceblue;
+    font-size: 30px;
+}
+#pra5{
+    color: aliceblue;
+    font-size: 30px;
+}
+#h32{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+}
+#h41{
+    color: aliceblue;
+    font-size: 40px;
+}
+#pra6{
+    color: aliceblue;
+    font-size: 30px;
+}
+#foo{
+    height: 500px;
+    background-color: black;
+    position: relative;
+    top: 30px;
+}
+#fop{
+    color: aliceblue;
+    font-size:  30px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+#fosub{
+    height: 50px;
+    width: 50px;
+    border: red solid;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    border-radius: 100%;
+
+    
+}
+#wq{
+    color: aliceblue;
+    font-size: 40px;
+    position: absolute;
+    top: px;
+    left: 50px;
+}
+#fosub:hover{
+    /* border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px; */
+    border-radius: 30px;
+    border: white solid;
+    transition: 1s;
+    border-left: none;
+    background-image: linear-gradient(red,black);
+    width: 300px;
+    letter-spacing: 6px;
+
+}
+#foolast{
+    height: 150px;
+    width: 1190px;
+    border-top: red solid;
+    border-bottom: wheat solid;
+    position: absolute;
+    top: 190px;
+    left: 150px;
+    justify-content: space-between;
+}
+#accen{
+    position: absolute;
+    top: 40px;
+}
+#about{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 120px;
+    top: 60px;
+
+}
+#contact{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 280px;
+    top: 60px;
+}
+#crreers{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 60px;
+
+}
+#location{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 650px;
+    top: 60px;
+
+}
+#fooicon{
+    height: 100px;
+    width: 300px;
+    /* background-color:wheat; */
+    position: absolute;
+    left: 1000px;
+    top: 215px;
+}
+#icon1{
+    position: absolute;
+    top: 26px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+    /* background-color: aliceblue; */
+}
+#icon2{
+    position: absolute;
+    top: 26px;
+    left: 70px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+
+}
+#icon3{
+    position: absolute;
+    top: 26px;
+    left: 155px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+}
+#icon4{
+    position: absolute;
+    top: 26px;
+    left: 240px;
+    height: 90px;
+    font-size: 50px;
+    color: aliceblue;
+    
+}
+#privacy{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    border-bottom: solid white;
+}
+#teram{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    border-bottom: solid white;
+
+}
+#cookie{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    border-bottom: solid white;
+}
+#access{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 760px;
+    border-bottom: solid white;
+
+}
+#site{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 960px;
+    border-bottom: solid white;
+
+}
+#accen2023{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+    left: 1060px;
+    border-bottom: solid white;
+
+
+}
+
+
+
+
